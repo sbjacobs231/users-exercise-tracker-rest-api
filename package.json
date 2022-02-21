@@ -1,0 +1,17 @@
+{
+  "name": "users-exercise-tracker-rest-api",
+  "version": "1.0.0",
+  "description": "REST API microservice that allows users to organize their exercise routines.",
+  "main": "exercises_controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon exercises_controller.mjs"
+  },
+  "author": "Sky Jacobson",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
