@@ -12,6 +12,7 @@
 3. Run this program.
 
 # Example POST request in ReactJS:
+```
 const createItem = async () => {
     const newItem = {
       username: 'Sky',
@@ -29,18 +30,22 @@ const createItem = async () => {
       }
     });
 }
+```
 
 # Example GET request in ReactJS:
 * Returns array of objects.
+```
 const readItems = async () => {
     const username = 'Sky';
     const res = await fetch(`/exercises/${username}`);
     const data = await res.json();
     return data;
 }
+```
 
 # Example PUT request in 
 * Returns 0 or 1.
+```
 const updateItem = async () => {
     const id = data[0]._id;
     const editItem = {
@@ -60,11 +65,14 @@ const updateItem = async () => {
     });
     return res;
 }
+```
 
 # Example DELETE request in ReactJS
 * Returns 0 or 1.
+```
 const deleteItem = async () => {
     const id = data[0]._id;
     const res = await fetch(`/exercises/${id}`, { method: 'DELETE' });
     return res;
 }
+```
