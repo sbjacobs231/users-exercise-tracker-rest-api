@@ -43,7 +43,7 @@ const readItems = async () => {
 }
 ```
 
-# Example PUT request in 
+# Example PUT request in ReactJS:
 * Returns 0 or 1.
 ```
 const updateItem = async () => {
